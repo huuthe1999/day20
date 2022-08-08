@@ -1,0 +1,21 @@
+.filter-cards {
+	display: flex;
+	flex-wrap: wrap;
+	width: 65%;
+	margin: 20px auto;
+	font-size: 1.65rem;
+}
+.filter-card {
+	border: 1px solid #c2bfbf;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	margin: 5px 20px 5px 0;
+	font-weight: 400;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.filter-card.active {
+	background-color: #60dcfc;
+	color: #fff;
+}

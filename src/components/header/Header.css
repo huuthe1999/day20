@@ -1,0 +1,32 @@
+.header {
+  text-align: center;
+  font-family: "Merriweather";
+  font-weight: 300;
+  margin-bottom: 50px;
+  font-size: 1.2rem;
+  background: #4776e6;
+  background: linear-gradient(90deg, #8e54e9, #4776e6);
+}
+
+.header-title {
+  text-shadow: 2px 2px 0 #fff, 2px 2px 0 rgba(0, 0, 0, 0.15) !important;
+  font-weight: 600;
+  font-family: "Merriweather";
+  font-size: 2.6rem;
+}
+
+.header p {
+  font-family: var(--font-family-body);
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+}
+
+.header h2 {
+  font-size: 1rem;
+  padding: 30px;
+}
+.header .average {
+  display: inline-block;
+  font-size: 26px;
+  color: #61dbfb;
+}
